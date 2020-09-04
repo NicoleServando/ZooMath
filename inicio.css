@@ -1,0 +1,59 @@
+  body{
+  background: url("./fondoZo.jpg");
+  background-attachment: fixed;
+  background: cover;
+  }
+      .Conteiner-form{
+  position: center;
+  background-color: white;
+  width:100%;
+  max-width: 45%;
+  margin:60px auto;
+  color: black;
+  border-radius: 5px;
+  font-family: 'Sriracha', cursive;
+  transition: all .5s ease;
+  cursor: pointer;
+  }
+
+  .Conteiner-form input[type="text"],
+  .Conteiner-form input[type="password"],
+  .Conteiner-form input[type="email"]{
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 2px;
+  border-bottom: 4px solid #ff7043;
+  font-family: 'Sriracha', cursive;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 20px;
+  transition: all .5s ease;
+  }
+.Conteiner-form .toggle:hover{
+  border-top: 2px solid #ff7043;
+  border-bottom: 2px solid #ff7043;
+}
+  .Conteiner-form input[type="text"]:focus,
+  .Conteiner-form input[type="password"]:focus,
+  .Conteiner-form input[type="email"]:focus{
+   border-bottom: 4px solid #80d8ff;
+   padding: 15px 0;
+  }
+  .Conteiner-form input[type="submit"]{
+  background: #0091ea;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Sriracha', cursive;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .5s ease;
+  }
+  .Conteiner-form input[type="submit"]:hover{
+  background:cyan accent-1;
+  }
+  
